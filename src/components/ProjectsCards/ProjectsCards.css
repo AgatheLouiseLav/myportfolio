@@ -1,0 +1,32 @@
+.ProjectsCards{
+	margin: 100px 40px;
+}
+
+.ProjectsCards p{
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: 'Roboto Mono', monospace;
+	word-spacing: 2px;
+	line-height: 1.9;
+	margin-bottom: 20px;
+}
+
+.ProjectsCards .cards-container{
+	/*border: 2px solid red;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.ProjectsCards .cards-container div{
+	border: 2px solid #ffacac;
+	background-color: white;
+	margin: 30px 10px;
+	width: 350px;
+}
+
+.ProjectsCards .cards-container div img{
+	width: 350px;
+	height: 200px;
+	object-fit: cover;
+}

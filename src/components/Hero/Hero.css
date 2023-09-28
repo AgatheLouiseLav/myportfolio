@@ -1,0 +1,67 @@
+.Hero{
+	margin: 100px 40px;
+	/*border: 2px solid red;*/
+	display: flex;
+}
+
+.Hero .hero-left{
+	/*border: 2px solid orange;*/
+	width: 55%;
+	padding: 0px 70px;
+	text-align: left;
+}
+.Hero .hero-left p{
+	font-family: 'Roboto Mono', monospace;
+	word-spacing: 2px;
+	  line-height: 1.9;
+}
+
+.Hero .hero-right{
+	position: relative;
+	margin-right: 30px;
+	/*border: 2px solid green;*/
+	width: 30%;
+}
+
+.Hero .hero-right img{
+	display: block;
+	margin: 0 auto;
+	width: 98%;
+	border: 3px solid #ffacac;	
+}
+
+.overlay{
+  	position: absolute;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+	background-color: #ffacac;
+	background-image:  radial-gradient(#ffacac 2px, transparent 2px), radial-gradient(#ffacac 2px, #e45a84 2px);
+	background-size: 80px 80px;
+	background-position: 0 0,40px 40px;
+ 	 overflow: hidden;
+ 	 width: 0;
+  	height: 100%;
+  	transition: .5s ease;
+}
+
+.text{
+	color: #3e1e68;
+	font-size: 20px;
+	font-weight: 700;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	-webkit-transform: translate(-50%, -50%);
+  	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
+  	text-align: center;
+}
+
+.Hero .hero-right:hover .overlay{
+	width: 100%;
+}
+
+.Hero .hero-right img:hover .overlay{
+	width: 100%;
+}

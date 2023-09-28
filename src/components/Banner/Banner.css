@@ -1,0 +1,10 @@
+.Banner{
+	background-color: #ffacac;
+	opacity: 1;
+background-image:  linear-gradient(#e45a84 2px, transparent 2px), linear-gradient(to right, #e45a84 2px, #ffacac 2px);
+background-size: 40px 40px;
+	padding: 30px;
+	color: #3E1E68;
+	font-weight: 700;
+}
+
