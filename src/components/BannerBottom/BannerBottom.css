@@ -1,0 +1,11 @@
+.BannerBottom{
+	background-color: #FFACAC;
+	opacity: 1;
+	background-image:  linear-gradient(135deg, #E45A84 25%, transparent 25%), linear-gradient(225deg, #E45A84 25%, transparent 25%), linear-gradient(45deg, #E45A84 25%, transparent 25%), linear-gradient(315deg, #E45A84 25%, #FFACAC 25%);
+	background-position:  40px 0, 40px 0, 0 0, 0 0;
+	background-size: 40px 40px;
+	background-repeat: repeat;
+	padding: 30px;
+	color: #3E1E68;
+	font-weight: 700;
+}

@@ -1,0 +1,17 @@
+.Certifications{
+	margin: 100px 40px;
+}
+
+.Certifications img{
+	width: 50%;
+	margin: 20px;
+}
+
+.Certifications p{
+	max-width: 800px;
+	margin: 0 auto;
+	font-family: 'Roboto Mono', monospace;
+	word-spacing: 2px;
+	line-height: 1.9;
+	margin-bottom: 20px;
+}

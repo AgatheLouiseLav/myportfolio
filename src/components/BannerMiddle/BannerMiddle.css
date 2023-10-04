@@ -1,0 +1,11 @@
+.BannerMiddle{
+	background-color: #E45A84;
+	opacity: 0.8;
+	background-image:  linear-gradient(30deg, #FFACAC 12%, transparent 12.5%, transparent 87%, #FFACAC 87.5%, #FFACAC), linear-gradient(150deg, #FFACAC 12%, transparent 12.5%, transparent 87%, #FFACAC 87.5%, #FFACAC), linear-gradient(30deg, #FFACAC 12%, transparent 12.5%, transparent 87%, #FFACAC 87.5%, #FFACAC), linear-gradient(150deg, #FFACAC 12%, transparent 12.5%, transparent 87%, #FFACAC 87.5%, #FFACAC), linear-gradient(60deg, #FFACAC77 25%, transparent 25.5%, transparent 75%, #FFACAC77 75%, #FFACAC77), linear-gradient(60deg, #FFACAC77 25%, transparent 25.5%, transparent 75%, #FFACAC77 75%, #FFACAC77);
+	background-size: 80px 140px;
+	background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;	
+	padding: 30px;
+	color: #3E1E68;
+	font-weight: 700;
+}
+

@@ -13,12 +13,12 @@
 	justify-content: space-around;
 }
 
-.Navbar ul a{
+.Navbar ul li{
 	color: #e45a84;
 	text-decoration: none;
 }
 
-.Navbar ul a li:hover{
+.Navbar ul li:hover{
 	transition: 0.2s all ease-in-out;
 	color: #3e1e68;
 	transform :scale(1.1);
