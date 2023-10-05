@@ -3,10 +3,71 @@
 	align-items: center;
 }
 
-.Contact p{
-	margin: 20px auto;
-	border: 2px solid red;
-	width: 550px;
+.Contact .logo{
+	padding: 20px;
+	width: 200px;
+	margin: 0 auto;
 	display: flex;
-	justify-content:space-between;
+	justify-content: space-around;
+}
+
+.Contact .logo a{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3E1E68;
+	color: #FFACAC;
+	border-radius: 50%;
+	padding:10px;
+	font-size: 30px;
+	-webkit-transition: all .6s ease; 
+	-moz-transition: all .6s ease; 
+	-ms-transition: all .6s ease; 
+	-o-transition: all .6s ease; 
+	transition: all .6s ease;
+}
+
+.Contact .logo a:hover{
+	border-radius: 0%;
+}
+
+.Contact form{
+	text-align: left;
+	margin: 20px auto;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.Contact form label{
+	margin: 10px 0;
+}
+
+.Contact form input{
+	padding: 5px;
+}
+
+.Contact form textarea{
+	margin-bottom: 10px;
+}
+
+.Contact form button{
+	margin: 10px 0;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #3E1E68;
+	color: #FFACAC;
+	border: none;
+	border-radius: 35px;
+	-webkit-transition: all .6s ease; 
+	-moz-transition: all .6s ease; 
+	-ms-transition: all .6s ease; 
+	-o-transition: all .6s ease; 
+	transition: all .6s ease;
+}
+
+.Contact form button:hover{
+	border-radius: 0%;
 }

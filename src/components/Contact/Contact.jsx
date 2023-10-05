@@ -6,9 +6,19 @@ function Contact() {
   return (
 	<div className='Contact'>
 		<h1>🤙 Contact 🤙</h1>
-		<p><AiOutlineMail />Email: gotgini@gmail.com </p>
-		<p><AiFillLinkedin />LinkedIn: agathe-lavigne-65329916a </p>
-		<p><AiFillGithub />Github: AgatheLouiseLav </p>
+		<form>
+			<label>Name:</label>
+			<input />
+			<label>Email:</label>
+			<input />
+			<label>Message:</label>
+			<textarea />
+			<button>Submit</button>
+		</form>
+		<div className='logo'>
+			<a href='https://www.linkedin.com/in/agathe-lavigne-65329916a/'><AiFillLinkedin /></a>
+			<a href='https://github.com/AgatheLouiseLav'><AiFillGithub /></a>
+		</div>
 	</div>
   )
 };
