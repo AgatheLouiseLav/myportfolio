@@ -1,3 +1,36 @@
 .Nasa{
 	margin: 100px 40px;
 }
+
+.Nasa .project-container{
+	border: red 2px solid;
+}
+
+.Nasa .project-container .logos{
+	margin: 0 auto;
+	width: 700px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.Nasa .project-container .logos p{
+ 	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3E1E68;
+	color: #FFACAC;
+	border-radius: 50%;
+	padding:10px;
+	font-size: 30px;
+	-webkit-transition: all .6s ease; 
+	-moz-transition: all .6s ease; 
+	-ms-transition: all .6s ease; 
+	-o-transition: all .6s ease; 
+	transition: all .6s ease;
+}
+
+.Nasa .project-container  .logos p:hover{
+	border-radius: 0%;
+}
