@@ -2,8 +2,19 @@
 	margin: 100px 40px;
 }
 
-.Nasa .project-container{
-	border: red 2px solid;
+.Nasa h2{
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+
+.Nasa .project-container p{
+	font-family: 'Roboto Mono', monospace;
+	word-spacing: 2px;
+	line-height: 1.9;
+}
+.Nasa .project-container h4{
+	margin-top: 70px;
+	font-size: 25px;
 }
 
 .Nasa .project-container .logos{
