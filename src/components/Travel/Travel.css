@@ -1,0 +1,52 @@
+.Travel{
+	margin: 40px;
+}
+
+.Travel h2{
+	font-size: 30px;
+	margin-bottom: 60px;
+}
+.Travel a{
+	display: flex;
+	font-size: 20px;
+	color: #E45A84;
+}
+
+.Travel .project-container p{
+	font-family: 'Roboto Mono', monospace;
+	word-spacing: 2px;
+	line-height: 1.9;
+}
+.Travel .project-container h4{
+	margin-top: 70px;
+	font-size: 25px;
+}
+
+.Travel .project-container .logos{
+	margin: 0 auto;
+	width: 700px;
+	display: flex;
+	justify-content: space-between;	
+}
+
+.Travel .project-container .logos p{
+ 	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3E1E68;
+	color: #FFACAC;
+	border-radius: 50%;
+	padding:10px;
+	font-size: 30px;
+	-webkit-transition: all .6s ease; 
+	-moz-transition: all .6s ease; 
+	-ms-transition: all .6s ease; 
+	-o-transition: all .6s ease; 
+	transition: all .6s ease;
+}
+
+.Travel .project-container  .logos p:hover{
+	border-radius: 0%;
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Nasa.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import NasaImg1 from "../../images/Supernova.png";
 import NasaImg2 from "../../images/Nasa_img2.png";
@@ -9,7 +9,7 @@ import NasaImg4 from "../../images/Nasa_img6.png";
 import NasaImg5 from "../../images/Nasa_img7.png";
 import NasaImg6 from "../../images/Nasa_img8.png";
 import NasaImg7 from "../../images/Nasa_img9.png";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiOutlineArrowLeft } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript,BiLogoReact,BiLogoMongodb } from "react-icons/bi";
 import { SiExpress } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
@@ -18,7 +18,8 @@ import { TbApi } from "react-icons/tb";
 function Nasa() {
   return (
 	<div className='Nasa'>
-         <h2>NASA Library</h2>
+            <a href="/"><AiOutlineArrowLeft />Back</a>
+            <h2>NASA Library</h2>
      <Carousel>
         
                 <div>

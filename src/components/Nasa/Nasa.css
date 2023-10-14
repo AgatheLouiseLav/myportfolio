@@ -1,10 +1,15 @@
 .Nasa{
-	margin: 100px 40px;
+	margin: 40px;
 }
 
 .Nasa h2{
 	font-size: 30px;
 	margin-bottom: 60px;
+}
+.Nasa a{
+	display: flex;
+	font-size: 20px;
+	color: #E45A84;
 }
 
 .Nasa .project-container p{
