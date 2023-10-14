@@ -10,7 +10,7 @@ function ProjectsCards() {
   return (
 	<div className='ProjectsCards'>
     <h2>🎇 My Projects 🎇</h2>
-    <p>All those projects have been made from scratch. Three of them are solo projects are Moneywise is a Team project. They've all been done as I was a student of General Assembly from June 2023 to September 2023.</p>
+    <p>All those projects have been made from scratch within a week time each. Three of them are solo projects, only Moneywise is a Team project. They've all been done as I was a student of General Assembly from June 2023 to September 2023.</p>
     <div className='cards-container'>
      <Link to="/nasawebsite">
       <div className='card'>

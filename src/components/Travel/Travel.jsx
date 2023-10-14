@@ -1,6 +1,6 @@
 import React from 'react';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import "./Travel.css";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import TJImg1 from "../../images/TJ1.png";
 import TJImg2 from "../../images/TJ2.png";
@@ -9,7 +9,7 @@ import TJImg4 from "../../images/TJ4.png";
 import TJImg5 from "../../images/TJ5.png";
 import { AiFillHtml5, AiOutlineArrowLeft } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript, BiLogoMongodb} from "react-icons/bi";
-import { SiExpress } from "react-icons/si"
+import { SiExpress, SiMongoose } from "react-icons/si"
 
 function Travel() {
   return (
@@ -19,26 +19,24 @@ function Travel() {
      <Carousel>
         
                 <div>
-                    <img src={TJImg2} alt="moneywise website"/>
+                    <img src={TJImg2} alt="Travel Journal website"/>
                 </div>
                 <div>
-                    <img src={TJImg1} alt="moneywise website"/>
+                    <img src={TJImg1} alt="Travel Journal website"/>
                 </div>
                 <div>
-                    <img src={TJImg3} alt="moneywise website"/>
+                    <img src={TJImg3} alt="Travel Journal website"/>
                 </div>
                 <div>
-                    <img src={TJImg4} alt="moneywise website"/>
+                    <img src={TJImg4} alt="Travel Journal website"/>
                 </div>
                 <div>
-                    <img src={TJImg5} alt="moneywise website"/>
+                    <img src={TJImg5} alt="Travel Journal website"/>
                 </div>
       </Carousel>
       <div className='project-container'>
         <h4>About this project</h4>
-        <p>MoneyWise is a full stack CRUD financial webapplication, made from scratch by by Code of Duty (my Team and I).
- 	    Ryan and Kay were in charge of GitHub managment and backend structure, while Callum and I were the frontend expert, responsivness included, for this project.<br/>
-</p>
+        <p>TravelJournal is a full stack solo project. This app consists of keeping travel souvenirs safe and light in your pocket. I began this creation by doing the wireframe, then the ERD followed by my pseudocode and finally applied all those pre-work into practice.</p>
 
         <h4>Technology Used</h4>
         <div className='logos'>
@@ -46,12 +44,12 @@ function Travel() {
             <p><BiLogoCss3/></p>
             <p><BiLogoJavascript /></p>
             <p><SiExpress /></p> 
+            <p><SiMongoose /></p>
             <p><BiLogoMongodb /></p>
         </div>
 
         <h4>Challenges</h4>
-        <p>It was crucial that our communication was adequate to avoid merging problem on github. Other than the merging problem all went pretty well as we were compliting each others work. As our backend team was shaping the functionality of the website Callum and I had to foollow up on every pages made, keep the website design parallel with all the pages, to make it responsive and we added a black mode theme to it.
-            Our collaboration was our success for this website. </p>
+        <p>The whole project was a challenge, but I really enjoyed it as it built up confidence in my new skills. The update and delete controllers were the most difficult. I also decided to use reference data in mongoDB so I could practise it more and get more familiar with it. Making a website responsive is always more difficult than I thought but if I had more time for this project the responsiveness would be spot on. </p>
 
       </div>
   </div>

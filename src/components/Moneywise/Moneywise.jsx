@@ -74,7 +74,7 @@ function Moneywise() {
         </div>
 
         <h4>Challenges</h4>
-        <p>It was crucial that our communication was adequate to avoid merging problem on github. Other than the merging problem all went pretty well as we were compliting each others work. As our backend team was shaping the functionality of the website Callum and I had to foollow up on every pages made, keep the website design parallel with all the pages, to make it responsive and we added a black mode theme to it.
+        <p>It was crucial that our communication was adequate to avoid merging problem on github. Globaly all went pretty well as we were completing each others work. As our backend team was shaping the functionality of the website Callum and I had to foollow up on every pages made, keep the website design parallel with all the pages, to make it responsive and we added a black mode theme to it.
             Our collaboration was our success for this website. </p>
 
       </div>
