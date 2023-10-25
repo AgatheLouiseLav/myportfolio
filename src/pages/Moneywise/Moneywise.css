@@ -1,35 +1,42 @@
-.Mastermind{
+.MW{
 	margin: 40px;
 }
 
-.Mastermind h2{
+.MW h2{
 	font-size: 30px;
 	margin-bottom: 60px;
 }
-.Mastermind a{
+.MW a{
 	display: flex;
 	font-size: 20px;
 	color: #E45A84;
 }
 
-.Mastermind .project-container p{
+.MW .project-container p{
 	font-family: 'Roboto Mono', monospace;
 	word-spacing: 2px;
 	line-height: 1.9;
 }
-.Mastermind .project-container h4{
+.MW .project-container h4{
 	margin-top: 70px;
 	font-size: 25px;
 }
 
-.Mastermind .project-container .logos{
+.MW .project-container .links{
+	margin:50px auto;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.MW .project-container .logos{
 	margin: 0 auto;
 	width: 700px;
 	display: flex;
 	justify-content: space-between;	
 }
 
-.Mastermind .project-container .logos p{
+.MW .project-container .links a,.MW .project-container .logos p{
  	width: 40px;
 	height: 40px;
 	display: flex;
@@ -47,6 +54,6 @@
 	transition: all .6s ease;
 }
 
-.Mastermind .project-container  .logos p:hover{
+.MW .project-container .links a:hover, .MW .project-container  .logos p:hover{
 	border-radius: 0%;
 }

@@ -1,35 +1,42 @@
-.MW{
+.Travel{
 	margin: 40px;
 }
 
-.MW h2{
+.Travel h2{
 	font-size: 30px;
 	margin-bottom: 60px;
 }
-.MW a{
+.Travel a{
 	display: flex;
 	font-size: 20px;
 	color: #E45A84;
 }
 
-.MW .project-container p{
+.Travel .project-container p{
 	font-family: 'Roboto Mono', monospace;
 	word-spacing: 2px;
 	line-height: 1.9;
 }
-.MW .project-container h4{
+.Travel .project-container h4{
 	margin-top: 70px;
 	font-size: 25px;
 }
 
-.MW .project-container .logos{
+.Travel .project-container .logos{
 	margin: 0 auto;
 	width: 700px;
 	display: flex;
 	justify-content: space-between;	
 }
 
-.MW .project-container .logos p{
+.Travel .project-container .links{
+	margin:50px auto;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Travel .project-container .links a,.Travel .project-container .logos p{
  	width: 40px;
 	height: 40px;
 	display: flex;
@@ -47,6 +54,6 @@
 	transition: all .6s ease;
 }
 
-.MW .project-container  .logos p:hover{
+.Travel .project-container .links a:hover,.Travel .project-container  .logos p:hover{
 	border-radius: 0%;
 }

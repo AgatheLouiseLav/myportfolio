@@ -12,10 +12,11 @@ import MWImg7 from "../../images/MW7.png";
 import MWImg8 from "../../images/MW9.png";
 import MWImg9 from "../../images/MW10.png";
 import MWImg10 from "../../images/MW11.png";
-import { AiFillHtml5, AiOutlineArrowLeft } from "react-icons/ai";
+import { AiFillHtml5, AiOutlineArrowLeft, AiFillGithub } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript, BiLogoDjango, BiLogoPython, BiLogoBootstrap} from "react-icons/bi";
 import { DiPostgresql } from "react-icons/di";
 import { TbApi } from "react-icons/tb";
+import { CgWebsite } from "react-icons/cg";
 
 function Moneywise() {
   return (
@@ -59,7 +60,17 @@ function Moneywise() {
         <h4>About this project</h4>
         <p>MoneyWise is a full stack CRUD financial webapplication, made from scratch by by Code of Duty (my Team and I).
  	    Ryan and Kay were in charge of GitHub managment and backend structure, while Callum and I were the frontend expert, responsivness included, for this project.<br/>
-</p>
+</p>    
+        <div className='links'>
+            <a href=''><AiFillGithub /></a>
+            <a href=''><CgWebsite/></a>
+        </div>
+
+
+        <h4>Challenges</h4>
+        <p>It was crucial that our communication was adequate to avoid merging problem on github. Globaly all went pretty well as we were completing each others work. As our backend team was shaping the functionality of the website Callum and I had to foollow up on every pages made, keep the website design parallel with all the pages, to make it responsive and we added a black mode theme to it.
+            Our collaboration was our success for this website. </p>
+
 
         <h4>Technology Used</h4>
         <div className='logos'>
@@ -72,10 +83,6 @@ function Moneywise() {
             <p><DiPostgresql /></p>
             <p><TbApi /></p>
         </div>
-
-        <h4>Challenges</h4>
-        <p>It was crucial that our communication was adequate to avoid merging problem on github. Globaly all went pretty well as we were completing each others work. As our backend team was shaping the functionality of the website Callum and I had to foollow up on every pages made, keep the website design parallel with all the pages, to make it responsive and we added a black mode theme to it.
-            Our collaboration was our success for this website. </p>
 
       </div>
   </div>

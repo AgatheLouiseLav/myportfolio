@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import "./Certifications.css";
 import CertificationGA from "../../images/certificate.png";
 

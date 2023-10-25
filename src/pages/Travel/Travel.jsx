@@ -7,9 +7,10 @@ import TJImg2 from "../../images/TJ2.png";
 import TJImg3 from "../../images/TJ3.png";
 import TJImg4 from "../../images/TJ4.png";
 import TJImg5 from "../../images/TJ5.png";
-import { AiFillHtml5, AiOutlineArrowLeft } from "react-icons/ai";
+import { AiFillHtml5, AiOutlineArrowLeft,AiFillGithub } from "react-icons/ai";
 import { BiLogoCss3, BiLogoJavascript, BiLogoMongodb} from "react-icons/bi";
-import { SiExpress, SiMongoose } from "react-icons/si"
+import { SiExpress, SiMongoose } from "react-icons/si";
+import { CgWebsite } from "react-icons/cg";
 
 function Travel() {
   return (
@@ -37,6 +38,15 @@ function Travel() {
       <div className='project-container'>
         <h4>About this project</h4>
         <p>TravelJournal is a full stack solo project. This app consists of keeping travel souvenirs safe and light in your pocket. I began this creation by doing the wireframe, then the ERD followed by my pseudocode and finally applied all those pre-work into practice.</p>
+        <div className='links'>
+            <a href=''><AiFillGithub /></a>
+            <a href=''><CgWebsite/></a>
+        </div>
+
+
+        <h4>Challenges</h4>
+        <p>The whole project was a challenge, but I really enjoyed it as it built up confidence in my new skills. The update and delete controllers were the most difficult. I also decided to use reference data in mongoDB so I could practise it more and get more familiar with it. Making a website responsive is always more difficult than I thought but if I had more time for this project the responsiveness would be spot on. </p>
+
 
         <h4>Technology Used</h4>
         <div className='logos'>
@@ -47,10 +57,6 @@ function Travel() {
             <p><SiMongoose /></p>
             <p><BiLogoMongodb /></p>
         </div>
-
-        <h4>Challenges</h4>
-        <p>The whole project was a challenge, but I really enjoyed it as it built up confidence in my new skills. The update and delete controllers were the most difficult. I also decided to use reference data in mongoDB so I could practise it more and get more familiar with it. Making a website responsive is always more difficult than I thought but if I had more time for this project the responsiveness would be spot on. </p>
-
       </div>
   </div>
   )

@@ -8,16 +8,16 @@ import BannerBottom from '../../components/BannerBottom/BannerBottom';
 import Contact from '../../components/Contact/Contact';
 
 
-function Home() {
+function Home(handleClickAbout, handleClickProjects, handleClickCertificates, handleClickContact) {
   return (
 	<div>
-		<Hero/>
+		<Hero handleClickAbout={handleClickAbout}/>
 		<BannerTop quote="“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler"/>
-		<ProjectsCards/>
+		<ProjectsCards handleClickProjects={handleClickProjects}/>
 		<BannerMiddle quote="“You might not think that programmers are artists, but programming is an extremely creative profession. It's logic-based creativity.”- John Romero"/>
-		<Certifications />
+		<Certifications handleClickCertificates={handleClickCertificates}/>
 		<BannerBottom quote="“Code is like humor. When you have to explain it, it’s bad.” – Cory House" />
-		<Contact />
+		<Contact handleClickContact={handleClickContact}/>
 	</div>
   )
 }

@@ -1,15 +1,10 @@
 import React from 'react';
 import "./Navbar.css";
 
-function Navbar() {
+function Navbar(){
   return (
 	<div className='Navbar'>
-    <ul>
-      <li>About</li>
-      <li>Projects</li>
-      <li>Certifications</li>
-      <li>Contact</li>
-    </ul>
+    <h1>Welcome to my Portfolio!</h1>
   </div>
   )
 }

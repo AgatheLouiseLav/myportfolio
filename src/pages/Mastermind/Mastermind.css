@@ -1,35 +1,42 @@
-.Nasa{
+.Mastermind{
 	margin: 40px;
 }
 
-.Nasa h2{
+.Mastermind h2{
 	font-size: 30px;
 	margin-bottom: 60px;
 }
-.Nasa a{
+.Mastermind a{
 	display: flex;
 	font-size: 20px;
 	color: #E45A84;
 }
 
-.Nasa .project-container p{
+.Mastermind .project-container p{
 	font-family: 'Roboto Mono', monospace;
 	word-spacing: 2px;
 	line-height: 1.9;
 }
-.Nasa .project-container h4{
+.Mastermind .project-container h4{
 	margin-top: 70px;
 	font-size: 25px;
 }
 
-.Nasa .project-container .logos{
+.Mastermind .project-container .logos{
 	margin: 0 auto;
 	width: 700px;
 	display: flex;
 	justify-content: space-between;	
 }
 
-.Nasa .project-container .logos p{
+.Mastermind .project-container .links{
+	margin:50px auto;
+	width: 400px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.Mastermind .project-container .links a, .Mastermind .project-container .logos p{
  	width: 40px;
 	height: 40px;
 	display: flex;
@@ -47,6 +54,6 @@
 	transition: all .6s ease;
 }
 
-.Nasa .project-container  .logos p:hover{
+.Mastermind .project-container .links a:hover ,.Mastermind .project-container  .logos p:hover{
 	border-radius: 0%;
 }
