@@ -6,21 +6,12 @@
 	padding: 10px;
 }
 
-.Navbar ul{
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-}
-
-.Navbar ul li{
+.Navbar h1{
 	color: #e45a84;
-	text-decoration: none;
 }
 
-.Navbar ul li:hover{
-	transition: 0.2s all ease-in-out;
-	color: #3e1e68;
-	transform :scale(1.1);
-	cursor: pointer;
+@media only screen and (max-width: 600px) {
+	h1{
+		font-size: 12px;
+	}
 }

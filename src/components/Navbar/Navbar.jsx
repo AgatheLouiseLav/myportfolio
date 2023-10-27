@@ -4,7 +4,7 @@ import "./Navbar.css";
 function Navbar(){
   return (
 	<div className='Navbar'>
-    <h1>Welcome to my Portfolio!</h1>
+    <h1>✨ Agathe Lavigne ✨</h1>
   </div>
   )
 }
